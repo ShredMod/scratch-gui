@@ -49,7 +49,7 @@ import styles from './interface.css';
 
 if (window.parent !== window) {
     // eslint-disable-next-line no-alert
-    alert('This page is embedding TurboWarp in a way that is unsupported and will cease to function in the near future. Please read https://docs.turbowarp.org/embedding');
+    alert('This page is embedding ShredMod in a way that is unsupported and will cease to function in the near future. Please read https://docs.turbowarp.org/embedding');
     throw new Error('Invalid embed');
 }
 
@@ -98,8 +98,8 @@ const Footer = () => (
             <div className={styles.footerText}>
                 <FormattedMessage
                     // eslint-disable-next-line max-len
-                    defaultMessage="TurboWarp is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation."
-                    description="Disclaimer that TurboWarp is not connected to Scratch"
+                    defaultMessage="ShredMod is not affiliated with Scratch, the Scratch Team, or the Scratch Foundation."
+                    description="Disclaimer that ShredMod is not connected to Scratch"
                     id="tw.footer.disclaimer"
                 />
             </div>
