@@ -891,7 +891,7 @@ class MenuBar extends React.Component {
                             {/* todo: icon */}
                             <Button className={styles.feedbackButton}>
                                 <FormattedMessage
-                                    defaultMessage="TurboWarp Feedback"
+                                    defaultMessage="ShredMod Feedback"
                                     description="Button to give feedback in the menu bar"
                                     id="tw.feedbackButton"
                                 />

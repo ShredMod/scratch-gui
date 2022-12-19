@@ -123,11 +123,11 @@ const Footer = () => (
                 <div className={styles.footerSection}>
                     <a href="https://desktop.turbowarp.org/">
                         {/* Do not translate */}
-                        {'TurboWarp Desktop'}
+                        {'ShredMod Desktop'}
                     </a>
                     <a href="https://packager.turbowarp.org/">
                         {/* Do not translate */}
-                        {'TurboWarp Packager'}
+                        {'ShredMod Packager'}
                     </a>
                     <a href="https://docs.turbowarp.org/embedding">
                         <FormattedMessage
@@ -145,7 +145,7 @@ const Footer = () => (
                     </a>
                     <a href="https://docs.turbowarp.org/translate">
                         <FormattedMessage
-                            defaultMessage="Help Translate TurboWarp"
+                            defaultMessage="Help Translate ShredMod"
                             description="Menu bar item for translating TurboWarp link"
                             id="tw.footer.translate"
                         />
@@ -159,7 +159,7 @@ const Footer = () => (
                             id="tw.feedback"
                         />
                     </a>
-                    <a href="https://github.com/TurboWarp/">
+                    <a href="https://github.com/ShredMod/">
                         <FormattedMessage
                             defaultMessage="Source Code"
                             description="Link to source code"

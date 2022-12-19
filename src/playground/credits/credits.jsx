@@ -58,13 +58,13 @@ const Credits = () => (
         </header>
         <section>
             <p>
-                The TurboWarp project is made possible by the work of many volunteers.
+                The ShredMod project is made possible by the work of many volunteers.
             </p>
         </section>
         <section>
             <h2>Scratch</h2>
             <p>
-                TurboWarp is based on the work of the <a href="https://scratch.mit.edu/credits">Scratch contributors</a> but is not endorsed by Scratch in any way.
+                ShredMod is based on the work of the <a href="https://scratch.mit.edu/credits">Scratch contributors</a> but is not endorsed by Scratch in any way.
             </p>
             <p>
                 <a href="https://scratch.mit.edu/donate">
@@ -79,7 +79,7 @@ const Credits = () => (
         <section>
             <h2>Translators</h2>
             <p>
-                More than 100 people have helped translate TurboWarp and its addons into many languages
+                More than 100 people have helped translate ShredMod and its addons into many languages
                 &mdash; far more than we could hope to list here.
             </p>
         </section>
