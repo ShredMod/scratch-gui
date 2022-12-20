@@ -366,7 +366,7 @@ export default [
             <FormattedMessage
                 defaultMessage="Utilites"
                 description="Utilites for Scratch"
-                id="tw.twExtension.name"
+                id="utils.twExtension.name"
             />
         ),
         extensionId: 'utils',
@@ -375,7 +375,7 @@ export default [
             <FormattedMessage
                 defaultMessage="Utilites for Scratch"
                 description="Scratch utilities"
-                id="tw.twExtension.description"
+                id="utils.twExtension.description"
             />
         ),
         featured: true,
