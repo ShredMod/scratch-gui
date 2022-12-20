@@ -10,6 +10,7 @@ const SAFE_EXTENSION_SITES = [
     // Be careful adding entries to this list.
     // Each entry MUST have a trailing / after the domain for this to provide any security.
     'https://extensions.turbowarp.org/',
+    'https://shredmod.github.io/extensions/',
 
     // For development.
     'http://localhost:8000/'
