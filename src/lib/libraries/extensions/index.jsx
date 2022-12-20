@@ -375,7 +375,7 @@ export default [
             <FormattedMessage
                 defaultMessage="Utilites for Scratch"
                 description="Scratch utilities"
-                id="gui.extesion.utils.description"
+                id="gui.extension.utils.description"
             />
         ),
         featured: true,
