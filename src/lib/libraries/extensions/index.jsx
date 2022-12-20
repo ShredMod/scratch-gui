@@ -343,6 +343,7 @@ export default [
             />
         ),
         featured: true,
+        collaborator: 'The_Mad_Punter',
         incompatibleWithScratch: true
     }
 ];
