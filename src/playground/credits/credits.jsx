@@ -75,7 +75,6 @@ const Credits = () => (
         <section>
             <p>ShredMod and its modifications were created by The_Mad_Punter.</p>
         </section>
-        </section>
         <section>
             <h2>Addons</h2>
             <UserList users={UserData.addonDevelopers} />
