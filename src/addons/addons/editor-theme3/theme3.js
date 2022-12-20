@@ -99,7 +99,7 @@ function updateSettings(addon, newStyle) {
 
   for (var prop of Object.keys(categories)) {
     var settingName = categories[prop].var ? categories[prop].var : prop;
-    var propNameForSettings = prop === "TurboWarp" ? "tw" : prop;
+    var propNameForSettings = prop === "ShredMod" ? "tw" : prop;
     if (textMode === "white" || textMode === "black") {
       let tertiary = multiply(addon.settings.get(propNameForSettings + "-color"), { r: 0.8, g: 0.8, b: 0.8 });
       stylesheet += `g[data-category="${prop}"] > path.blocklyBlockBackground {

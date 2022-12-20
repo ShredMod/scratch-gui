@@ -116,7 +116,7 @@ const manifest = {
     },
     {
       "dynamic": true,
-      "name": "TurboWarp",
+      "name": "ShredMod",
       "id": "tw-color",
       "type": "color",
       "default": "#ff4c4c",
