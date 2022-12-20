@@ -360,5 +360,25 @@ export default [
             />
         ),
         featured: true
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="Utilites"
+                description="Utilites for Scratch"
+                id="tw.twExtension.name"
+            />
+        ),
+        extensionId: 'utils',
+        iconURL: twIcon,
+        description: (
+            <FormattedMessage
+                defaultMessage="Utilites for Scratch"
+                description="Scratch utilities"
+                id="tw.twExtension.description"
+            />
+        ),
+        featured: true,
+        incompatibleWithScratch: true
     }
 ];
