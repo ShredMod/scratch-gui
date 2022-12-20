@@ -1,1 +1,1 @@
-export const APP_NAME = 'TurboWarp';
+export const APP_NAME = 'ShredMod';

@@ -146,7 +146,7 @@ const Footer = () => (
                     <a href="https://docs.turbowarp.org/translate">
                         <FormattedMessage
                             defaultMessage="Help Translate ShredMod"
-                            description="Menu bar item for translating TurboWarp link"
+                            description="Menu bar item for translating ShredMod link"
                             id="tw.footer.translate"
                         />
                     </a>
@@ -331,8 +331,8 @@ class Interface extends React.Component {
                                 <p>
                                     <FormattedMessage
                                         // eslint-disable-next-line max-len
-                                        defaultMessage="TurboWarp is a Scratch mod that compiles projects to JavaScript to make them run really fast. Try it out by inputting a project ID or URL above or choosing a featured project below."
-                                        description="Description of TurboWarp"
+                                        defaultMessage="ShredMod is a Scratch mod that compiles projects to JavaScript to make them run really fast. Try it out by inputting a project ID or URL above or choosing a featured project below."
+                                        description="Description of ShredMod"
                                         id="tw.home.description"
                                     />
                                 </p>

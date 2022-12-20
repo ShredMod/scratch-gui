@@ -295,7 +295,7 @@ export default [
     {
         name: (
             <FormattedMessage
-                defaultMessage="TurboWarp Blocks"
+                defaultMessage="ShredMod Blocks"
                 description="Name of TW extension"
                 id="tw.twExtension.name"
             />
@@ -304,7 +304,7 @@ export default [
         iconURL: twIcon,
         description: (
             <FormattedMessage
-                defaultMessage="Weird new blocks. Not compatible with Scratch."
+                defaultMessage="Weird new blocks. Not compatible with Scratch. Formerly in TurboWarp."
                 description="Description of TW extension"
                 id="tw.twExtension.description"
             />
