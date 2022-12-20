@@ -362,13 +362,7 @@ export default [
         featured: true
     },
     {
-        name: (
-            <FormattedMessage
-                defaultMessage="Utilites"
-                description="Utilites for Scratch"
-                id="gui.extension.utils.name"
-            />
-        ),
+        name: "Utilites",
         extensionId: 'utils',
         iconURL: twIcon,
         description: (
