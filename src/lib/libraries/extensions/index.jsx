@@ -293,22 +293,6 @@ export default [
         helpLink: 'https://scratch.mit.edu/wedo'
     },
     {
-        name: 'Utilites',
-        extensionId: 'gdxfor',
-        collaborator: 'Themadpunter',
-        iconURL: gdxforIconURL,
-        insetIconURL: gdxforInsetIconURL,
-        description: (
-            <FormattedMessage
-                defaultMessage="Utilites."
-                description="Description for the Vernier Go Direct Force and Acceleration sensor extension"
-                id="gui.extension.gdxfor.description"
-            />
-        ),
-        featured: true,
-        disabled: false
-    },
-    {
         name: (
             <FormattedMessage
                 defaultMessage="TurboWarp Blocks"

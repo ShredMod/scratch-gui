@@ -67,7 +67,7 @@ const handleClickAddonSettings = () => {
 
 const messages = defineMessages({
     defaultTitle: {
-        defaultMessage: 'Run Scratch projects faster',
+        defaultMessage: 'Mod with Shred',
         description: 'Title of homepage',
         id: 'tw.guiDefaultTitle'
     }

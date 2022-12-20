@@ -53,7 +53,7 @@ const Credits = () => (
     <main className={styles.main}>
         <header className={styles.headerContainer}>
             <h1 className={styles.headerText}>
-                TurboWarp Credits
+                <ShredMod></ShredMod> Credits
             </h1>
         </header>
         <section>
@@ -71,6 +71,10 @@ const Credits = () => (
                     Donate to support Scratch.
                 </a>
             </p>
+        </section>
+        <section>
+            <p>ShredMod and its modifications were created by The_Mad_Punter.</p>
+        </section>
         </section>
         <section>
             <h2>Addons</h2>
