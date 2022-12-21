@@ -136,6 +136,29 @@ export default [
     {
         name: (
             <FormattedMessage
+                defaultMessage="Speech to Text"
+                description="Name for the Text to Speech extension"
+                id="gui.extension.text2speech.name"
+            />
+        ),
+        extensionId: 'speech2text',
+        collaborator: 'Amazon Web Services',
+        iconURL: text2speechIconURL,
+        insetIconURL: text2speechInsetIconURL,
+        description: (
+            <FormattedMessage
+                defaultMessage="Talk to your projects."
+                description="Description for the Text to speech extension"
+                id="gui.extension.text2speech.description"
+            />
+        ),
+        featured: true,
+        internetConnectionRequired: true,
+        incompatibleWithScratch: true
+    },
+    {
+        name: (
+            <FormattedMessage
                 defaultMessage="Translate"
                 description="Name for the Translate extension"
                 id="gui.extension.translate.name"
