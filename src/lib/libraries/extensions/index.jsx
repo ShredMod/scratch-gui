@@ -138,7 +138,7 @@ export default [
             <FormattedMessage
                 defaultMessage="Speech to Text"
                 description="Name for the Text to Speech extension"
-                id="gui.extension.text2speech.name"
+                id="gui.extension.speech2text.name"
             />
         ),
         extensionId: 'speech2text',
@@ -149,7 +149,7 @@ export default [
             <FormattedMessage
                 defaultMessage="Talk to your projects."
                 description="Description for the Text to speech extension"
-                id="gui.extension.text2speech.description"
+                id="gui.extension.speech2text.description"
             />
         ),
         featured: true,
