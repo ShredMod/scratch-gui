@@ -383,5 +383,21 @@ export default [
         featured: true,
         collaborator: 'showierdata9978',
         incompatibleWithScratch: true
+    },
+    {
+        name: "CloudLink",
+        extensionId: 'cloudlink',
+        iconURL: twIcon,
+        description: (
+            <FormattedMessage
+                defaultMessage="CloudLink: Link to the Cloud"
+                description="Scratch utilities"
+                id="gui.extension.cloudlink.description"
+            />
+        ),
+        featured: true,
+        collaborator: 'MikeDev101',
+        internetConnectionRequired: true,
+        incompatibleWithScratch: true
     }
 ];
