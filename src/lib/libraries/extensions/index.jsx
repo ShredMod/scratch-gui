@@ -345,5 +345,20 @@ export default [
         featured: true,
         collaborator: 'The_Mad_Punter',
         incompatibleWithScratch: true
+    },
+    {
+        name: "GameUtils",
+        extensionId: 'gameutils',
+        iconURL: twIcon,
+        description: (
+            <FormattedMessage
+                defaultMessage="The Extension that Loads Sprites, costumes, etc."
+                description="Scratch utilities"
+                id="gui.extension.gameutils.description"
+            />
+        ),
+        featured: true,
+        collaborator: 'showierdata9978',
+        incompatibleWithScratch: true
     }
 ];
