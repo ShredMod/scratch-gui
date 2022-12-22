@@ -422,5 +422,20 @@ export default [
         featured: true,
         collaborator: 'The_Mad_Punter',
         incompatibleWithScratch: true
+    },
+    {
+        name: "Save",
+        extensionId: 'save',
+        iconURL: twIcon,
+        description: (
+            <FormattedMessage
+                defaultMessage="Save with Scratch"
+                description="Scratch utilities"
+                id="gui.extension.save.description"
+            />
+        ),
+        featured: true,
+        collaborator: 'The_Mad_Punter',
+        incompatibleWithScratch: true
     }
 ];
