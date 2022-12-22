@@ -405,5 +405,20 @@ export default [
         collaborator: 'MikeDev101',
         internetConnectionRequired: true,
         incompatibleWithScratch: true
+    },
+    {
+        name: "JavaScript",
+        extensionId: 'js',
+        iconURL: twIcon,
+        description: (
+            <FormattedMessage
+                defaultMessage="JavaScript with Scratch"
+                description="Scratch utilities"
+                id="gui.extension.js.description"
+            />
+        ),
+        featured: true,
+        collaborator: 'The_Mad_Punter',
+        incompatibleWithScratch: true
     }
 ];
