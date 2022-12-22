@@ -58,6 +58,8 @@ import cloudlinkIcon from './cloudlink/cloudlinkThumb.png'
 
 import jsIcon from './js/js.svg'
 
+import saveIcon from './save/save.svg'
+
 export default [
     {
         name: (
@@ -426,7 +428,7 @@ export default [
     {
         name: "Save",
         extensionId: 'save',
-        iconURL: twIcon,
+        iconURL: saveIcon,
         description: (
             <FormattedMessage
                 defaultMessage="Save with Scratch"
