@@ -56,6 +56,8 @@ import gameutilsIcon from './gameutils/gameutils.svg'
 
 import cloudlinkIcon from './cloudlink/cloudlinkThumb.png'
 
+import jsIcon from './js/js.svg'
+
 export default [
     {
         name: (
@@ -409,7 +411,7 @@ export default [
     {
         name: "JavaScript",
         extensionId: 'js',
-        iconURL: twIcon,
+        iconURL: jsIcon,
         description: (
             <FormattedMessage
                 defaultMessage="JavaScript with Scratch"
