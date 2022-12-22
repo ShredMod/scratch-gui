@@ -52,6 +52,10 @@ import customExtensionIcon from './custom/custom.svg';
 
 import utilsIcon from './utils/utilites.svg';
 
+import gameutilsIcon from './gameutils/gameutils.svg'
+
+import cloudIcon from './cloudlink/cloudlinkThumb.png'
+
 export default [
     {
         name: (
@@ -374,7 +378,7 @@ export default [
     {
         name: "GameUtils",
         extensionId: 'gameutils',
-        iconURL: twIcon,
+        iconURL: gameutilsIcon,
         description: (
             <FormattedMessage
                 defaultMessage="The Extension that Loads Sprites, costumes, etc."
@@ -389,7 +393,7 @@ export default [
     {
         name: "CloudLink",
         extensionId: 'cloudlink',
-        iconURL: twIcon,
+        iconURL: cloudlinkIcon,
         description: (
             <FormattedMessage
                 defaultMessage="CloudLink: Link to the Cloud"
