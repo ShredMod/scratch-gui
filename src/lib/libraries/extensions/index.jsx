@@ -50,6 +50,8 @@ import twIcon from './tw/tw.svg';
 
 import customExtensionIcon from './custom/custom.svg';
 
+import utilsIcon from './utils/utilites.svg';
+
 export default [
     {
         name: (
@@ -357,7 +359,7 @@ export default [
     {
         name: "Utilites",
         extensionId: 'utils',
-        iconURL: twIcon,
+        iconURL: utilsIcon,
         description: (
             <FormattedMessage
                 defaultMessage="Utilites for Scratch"
