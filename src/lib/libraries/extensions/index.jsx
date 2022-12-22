@@ -54,7 +54,7 @@ import utilsIcon from './utils/utilites.svg';
 
 import gameutilsIcon from './gameutils/gameutils.svg'
 
-import cloudIcon from './cloudlink/cloudlinkThumb.png'
+import cloudlinkIcon from './cloudlink/cloudlinkThumb.png'
 
 export default [
     {
