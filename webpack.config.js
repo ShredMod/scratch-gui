@@ -32,6 +32,7 @@ const base = {
         host: '0.0.0.0',
         compress: true,
         port: process.env.PORT || 8601,
+        disableHostCheck: true,
         // allows ROUTING_STYLE=wildcard to work properly
         historyApiFallback: {
             rewrites: [
