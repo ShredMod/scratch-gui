@@ -450,7 +450,7 @@ export default [
             <FormattedMessage
                 defaultMessage="Blocks that should be in Scratch"
                 description="Scratch utilities"
-                id="gui.extension.save.description"
+                id="gui.extension.jwUnite.description"
             />
         ),
         featured: true,
