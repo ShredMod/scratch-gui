@@ -60,6 +60,8 @@ import jsIcon from './js/js.svg'
 
 import saveIcon from './save/save.svg'
 
+import uniteIcon from './unite/Unite.png'
+
 export default [
     {
         name: (
@@ -438,6 +440,21 @@ export default [
         ),
         featured: true,
         collaborator: 'The_Mad_Punter',
+        incompatibleWithScratch: true
+    },
+    {
+        name: "Unite",
+        extensionId: 'jwUnite',
+        iconURL: uniteIcon,
+        description: (
+            <FormattedMessage
+                defaultMessage="Blocks that should be in Scratch"
+                description="Scratch utilities"
+                id="gui.extension.save.description"
+            />
+        ),
+        featured: true,
+        collaborator: 'PenguinMod',
         incompatibleWithScratch: true
     }
 ];
