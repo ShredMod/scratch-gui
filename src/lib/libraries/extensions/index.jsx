@@ -62,6 +62,8 @@ import saveIcon from './save/save.svg'
 
 import uniteIcon from './unite/Unite.png'
 
+import runtimeIcon from './runtime/runtime.png'
+
 export default [
     {
         name: (
@@ -460,7 +462,7 @@ export default [
     {
         name: "Runtime",
         extensionId: 'jgRuntime',
-        iconURL: uniteIcon,
+        iconURL: runtimeIcon,
         description: (
             <FormattedMessage
                 defaultMessage="Runtime Utilites from PenguinMod"
