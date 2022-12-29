@@ -456,5 +456,20 @@ export default [
         featured: true,
         collaborator: 'PenguinMod',
         incompatibleWithScratch: true
+    },
+    {
+        name: "Runtime",
+        extensionId: 'jgRuntime',
+        iconURL: uniteIcon,
+        description: (
+            <FormattedMessage
+                defaultMessage="Runtime Utilites from PenguinMod"
+                description="Scratch utilities"
+                id="gui.extension.jgRuntime.description"
+            />
+        ),
+        featured: true,
+        collaborator: 'PenguinMod',
+        incompatibleWithScratch: true
     }
 ];
