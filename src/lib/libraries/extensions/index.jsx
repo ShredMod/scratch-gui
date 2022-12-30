@@ -463,7 +463,7 @@ export default [
     },
     {
         name: "Runtime",
-        extensionId: 'jgruntime',
+        extensionId: 'jgRuntime',
         iconURL: runtimeIcon,
         description: (
             <FormattedMessage
