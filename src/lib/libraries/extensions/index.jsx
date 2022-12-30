@@ -64,6 +64,8 @@ import uniteIcon from './unite/Unite.png'
 
 import runtimeIcon from './runtime/runtime.png'
 
+import box2dIcon from './box2d/griffpatch_physics.png'
+
 export default [
     {
         name: (
@@ -473,5 +475,21 @@ export default [
         featured: true,
         collaborator: 'PenguinMod',
         incompatibleWithScratch: true
+    },
+    {
+        name: "Box2D",
+        extensionId: 'box2d',
+        iconURL: box2dIcon,
+        description: (
+            <FormattedMessage
+                defaultMessage="Box2D"
+                description="Scratch utilities"
+                id="gui.extension.box2d.description"
+            />
+        ),
+        featured: true,
+        collaborator: 'griffpatch',
+        incompatibleWithScratch: true
     }
+    
 ];
