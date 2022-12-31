@@ -66,7 +66,7 @@ import runtimeIcon from './runtime/runtime.png'
 
 import box2dIcon from './box2d/griffpatch_physics.png'
 
-import shredsdkIcon from './shredsdk/shredsdk.png'
+import shredsdkIcon from './shredsdk/shredsdk.svg'
 
 export default [
     {
