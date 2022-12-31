@@ -66,6 +66,8 @@ import runtimeIcon from './runtime/runtime.png'
 
 import box2dIcon from './box2d/griffpatch_physics.png'
 
+import shredsdkIcon from './shredsdk/shredsdk.png'
+
 export default [
     {
         name: (
@@ -489,6 +491,21 @@ export default [
         ),
         featured: true,
         collaborator: 'griffpatch',
+        incompatibleWithScratch: true
+    },
+    {
+        name: "ShredSDK",
+        extensionId: 'shredsdk',
+        iconURL: shredsdkIcon,
+        description: (
+            <FormattedMessage
+                defaultMessage="A development kit for making good web games"
+                description="Scratch utilities"
+                id="gui.extension.shredsdk.description"
+            />
+        ),
+        featured: true,
+        collaborator: 'The_Mad_Punter',
         incompatibleWithScratch: true
     }
     
