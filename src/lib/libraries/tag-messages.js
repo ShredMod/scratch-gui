@@ -125,5 +125,35 @@ export default defineMessages({
         defaultMessage: 'Letters',
         description: 'Tag for filtering a library for letters',
         id: 'gui.libraryTags.letters'
+    },
+    hardware: {
+        defaultMessage: 'Hardware',
+        description: 'Tag for filtering a library for hardware',
+        id: 'gui.libraryTags.hardware'
+    },
+    ai: {
+        defaultMessage: 'AI',
+        description: 'Tag for filtering a library for artificial intelligence',
+        id: 'gui.libraryTags.ai'
+    },
+    network: {
+        defaultMessage: 'Network',
+        description: 'Tag for filtering a library for network stuff',
+        id: 'gui.libraryTags.network'
+    },
+    scratch: {
+        defaultMessage: 'Scratch',
+        description: 'Tag for filtering a library for Scratch stuff',
+        id: 'gui.libraryTags.scratch'
+    },
+    others: {
+        defaultMessage: 'Others',
+        description: 'Tag for filtering a library for unclassified stuff',
+        id: 'gui.libraryTags.others'
+    },
+    utils: {
+        defaultMessage: 'Utilites',
+        description: 'Tag for filtering a library for unclassified stuff',
+        id: 'gui.libraryTags.utils'
     }
 });

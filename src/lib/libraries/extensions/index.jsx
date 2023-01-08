@@ -77,6 +77,7 @@ export default [
                 id="gui.extension.music.name"
             />
         ),
+        tags: ["scratch"],
         extensionId: 'music',
         iconURL: musicIconURL,
         insetIconURL: musicInsetIconURL,
@@ -97,6 +98,7 @@ export default [
                 id="gui.extension.pen.name"
             />
         ),
+        tags: ["scratch"],
         extensionId: 'pen',
         iconURL: penIconURL,
         insetIconURL: penInsetIconURL,
@@ -117,6 +119,7 @@ export default [
                 id="gui.extension.videosensing.name"
             />
         ),
+        tags: ["scratch"],
         extensionId: 'videoSensing',
         iconURL: videoSensingIconURL,
         insetIconURL: videoSensingInsetIconURL,
@@ -137,6 +140,7 @@ export default [
                 id="gui.extension.text2speech.name"
             />
         ),
+        tags: ["scratch"],
         extensionId: 'text2speech',
         collaborator: 'Amazon Web Services',
         iconURL: text2speechIconURL,
@@ -154,34 +158,12 @@ export default [
     {
         name: (
             <FormattedMessage
-                defaultMessage="Speech to Text"
-                description="Name for the Text to Speech extension"
-                id="gui.extension.speech2text.name"
-            />
-        ),
-        extensionId: 'speech2text',
-        collaborator: 'Amazon Web Services',
-        iconURL: text2speechIconURL,
-        insetIconURL: text2speechInsetIconURL,
-        description: (
-            <FormattedMessage
-                defaultMessage="Talk to your projects."
-                description="Description for the Text to speech extension"
-                id="gui.extension.speech2text.description"
-            />
-        ),
-        featured: true,
-        internetConnectionRequired: true,
-        incompatibleWithScratch: true
-    },
-    {
-        name: (
-            <FormattedMessage
                 defaultMessage="Translate"
                 description="Name for the Translate extension"
                 id="gui.extension.translate.name"
             />
         ),
+        tags: ["scratch"],
         extensionId: 'translate',
         collaborator: 'Google',
         iconURL: translateIconURL,
@@ -198,6 +180,7 @@ export default [
     },
     {
         name: 'Makey Makey',
+        tags: ["scratch"],
         extensionId: 'makeymakey',
         collaborator: 'JoyLabz',
         iconURL: makeymakeyIconURL,
@@ -213,6 +196,7 @@ export default [
     },
     {
         name: 'micro:bit',
+        tags: ["scratch"],
         extensionId: 'microbit',
         collaborator: 'micro:bit',
         iconURL: microbitIconURL,
@@ -243,6 +227,7 @@ export default [
     },
     {
         name: 'LEGO MINDSTORMS EV3',
+        tags: ["scratch"],
         extensionId: 'ev3',
         collaborator: 'LEGO',
         iconURL: ev3IconURL,
@@ -273,6 +258,7 @@ export default [
     },
     {
         name: 'LEGO BOOST',
+        tags: ["scratch"],
         extensionId: 'boost',
         collaborator: 'LEGO',
         iconURL: boostIconURL,
@@ -304,6 +290,7 @@ export default [
     },
     {
         name: 'LEGO Education WeDo 2.0',
+        tags: ["scratch"],
         extensionId: 'wedo2',
         collaborator: 'LEGO',
         iconURL: wedo2IconURL,
@@ -342,6 +329,7 @@ export default [
             />
         ),
         extensionId: 'tw',
+        tags: ["others"],
         iconURL: twIcon,
         description: (
             <FormattedMessage
@@ -361,6 +349,7 @@ export default [
                 id="tw.customExtension.name"
             />
         ),
+        tags: ["others"],
         extensionId: '',
         iconURL: customExtensionIcon,
         description: (
@@ -374,6 +363,7 @@ export default [
     },
     {
         name: "Utilites",
+        tags: ["utils"],
         extensionId: 'utils',
         iconURL: utilsIcon,
         description: (
@@ -389,6 +379,7 @@ export default [
     },
     {
         name: "GameUtils",
+        tags: ["utils"],
         extensionId: 'gameutils',
         iconURL: gameutilsIcon,
         description: (
@@ -405,6 +396,7 @@ export default [
     {
         name: "CloudLink",
         extensionId: 'cloudlink',
+        tags: ["utils"],
         iconURL: cloudlinkIcon,
         description: (
             <FormattedMessage
@@ -421,6 +413,7 @@ export default [
     {
         name: "JavaScript",
         extensionId: 'js',
+        tags: ["utils"],
         iconURL: jsIcon,
         description: (
             <FormattedMessage
@@ -436,6 +429,7 @@ export default [
     {
         name: "Save",
         extensionId: 'save',
+        tags: ["utils"],
         iconURL: saveIcon,
         description: (
             <FormattedMessage
@@ -451,6 +445,7 @@ export default [
     {
         name: "Unite",
         extensionId: 'jwUnite',
+        tags: ["utils"],
         iconURL: uniteIcon,
         description: (
             <FormattedMessage
@@ -466,6 +461,7 @@ export default [
     {
         name: "Runtime",
         extensionId: 'jgRuntime',
+        tags: ["utils"],
         iconURL: runtimeIcon,
         description: (
             <FormattedMessage
@@ -481,6 +477,7 @@ export default [
     {
         name: "Box2D",
         extensionId: 'box2d',
+        tags: ["others"],
         iconURL: box2dIcon,
         description: (
             <FormattedMessage
@@ -495,6 +492,7 @@ export default [
     },
     {
         name: "ShredSDK",
+        tags: ["utils"],
         extensionId: 'shredsdk',
         iconURL: shredsdkIcon,
         description: (
