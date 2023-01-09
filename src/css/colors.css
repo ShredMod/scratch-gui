@@ -1,6 +1,6 @@
-$ui-primary: var(--ui-primary, hsla(215, 100%, 95%, 1)); /* #E5F0FF */
-$ui-secondary: var(--ui-secondary, hsla(215, 75%, 95%, 1)); /* #E9F1FC */
-$ui-tertiary: var(--ui-tertiary, hsla(215, 50%, 90%, 1)); /* #D9E3F2 */
+$ui-primary: var(--ui-primary, hsla(132, 100%, 95%, 1)); /* #E5F0FF */
+$ui-secondary: var(--ui-secondary, hsla(132, 75%, 95%, 1)); /* #E9F1FC */
+$ui-tertiary: var(--ui-tertiary, hsla(132, 50%, 90%, 1)); /* #D9E3F2 */
 
 $ui-modal-overlay: var(--ui-modal-overlay, hsla(0, 100%, 65%, 0.9)); /* 90% transparent version of motion-primary */
 
@@ -12,20 +12,20 @@ $ui-transparent: hsla(0, 100%, 100%, 0); /* 25% transparent version of ui-white 
 $ui-black-transparent-default: hsla(0, 0%, 0%, 0.15); /* 15% transparent version of black */
 $ui-black-transparent: var(--ui-black-transparent, $ui-black-transparent-default);
 
-$text-primary: var(--text-primary, hsla(225, 15%, 40%, 1)); /* #575E75 */
-$text-primary-transparent: hsla(225, 15%, 40%, 0.75);
+$text-primary: var(--text-primary, hsla(132, 15%, 40%, 1)); /* #575E75 */
+$text-primary-transparent: hsla(132, 15%, 40%, 0.75);
 
 $motion-primary: hsla(132, 100%, 40%, 1);
 $motion-tertiary: hsla(132, 40%, 40%, 1);
 $motion-transparent: hsla(132, 100%, 65%, 0.35); /* 35% transparent version of motion-primary */
-$motion-light-transparent: hsla(0, 100%, 65%, 0.15); /* 15% transparent version of motion-primary */
+$motion-light-transparent: hsla(132, 100%, 65%, 0.15); /* 15% transparent version of motion-primary */
 
 /* opt-in theme overrides */
 $motion-primary-dark: #333;
-$ui-primary-light: hsla(215, 100%, 95%, 1);
-$ui-secondary-light: hsla(215, 75%, 95%, 1);
-$ui-tertiary-light: hsla(215, 50%, 90%, 1);
-$text-primary-light: hsla(225, 15%, 40%, 1);
+$ui-primary-light: hsla(132, 100%, 95%, 1);
+$ui-secondary-light: hsla(132, 75%, 95%, 1);
+$ui-tertiary-light: hsla(132, 50%, 90%, 1);
+$text-primary-light: hsla(132, 15%, 40%, 1);
 
 $red-primary: hsla(132, 100%, 50% 1); /* #FF661A */
 $red-tertiary: hsla(132, 100%, 50%, 1); /* #E64D00 */
