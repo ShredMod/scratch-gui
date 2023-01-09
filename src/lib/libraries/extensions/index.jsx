@@ -477,7 +477,7 @@ export default [
     {
         name: "Box2D",
         extensionId: 'box2d',
-        tags: ["others"],
+        tags: ["others", "sdks"],
         iconURL: box2dIcon,
         description: (
             <FormattedMessage
@@ -492,7 +492,7 @@ export default [
     },
     {
         name: "ShredSDK",
-        tags: ["utils"],
+        tags: ["utils", "sdks"],
         extensionId: 'shredsdk',
         iconURL: shredsdkIcon,
         description: (

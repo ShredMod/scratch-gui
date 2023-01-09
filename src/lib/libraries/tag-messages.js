@@ -155,5 +155,10 @@ export default defineMessages({
         defaultMessage: 'Utilites',
         description: 'Tag for filtering a library for unclassified stuff',
         id: 'gui.libraryTags.utils'
+    },
+    sdks: {
+        defaultMessage: 'SDKs',
+        description: 'Tag for filtering a library for unclassified stuff',
+        id: 'gui.libraryTags.sdks'
     }
 });
