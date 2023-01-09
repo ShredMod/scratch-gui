@@ -68,6 +68,8 @@ import box2dIcon from './box2d/griffpatch_physics.png'
 
 import shredsdkIcon from './shredsdk/shredsdk.svg'
 
+import consoleIcon from './console/console.svg'
+
 export default [
     {
         name: (
@@ -500,6 +502,22 @@ export default [
                 defaultMessage="A development kit for making good web games"
                 description="Scratch utilities"
                 id="gui.extension.shredsdk.description"
+            />
+        ),
+        featured: true,
+        collaborator: 'The_Mad_Punter',
+        incompatibleWithScratch: true
+    },
+    {
+        name: "Console SDK (Gamepad)",
+        tags: ["utils", "sdks"],
+        extensionId: 'Gamepad',
+        iconURL: consoleIcon,
+        description: (
+            <FormattedMessage
+                defaultMessage="Console SDK (including controller support)"
+                description="Scratch utilities"
+                id="gui.extension.gamepad.description"
             />
         ),
         featured: true,
