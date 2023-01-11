@@ -70,6 +70,8 @@ import shredsdkIcon from './shredsdk/shredsdk.svg'
 
 import consoleIcon from './console/console.svg'
 
+import browserIcon from './browser/ada.png'
+
 export default [
     {
         name: (
@@ -518,6 +520,22 @@ export default [
                 defaultMessage="Console SDK (including controller support)"
                 description="Scratch utilities"
                 id="gui.extension.gamepad.description"
+            />
+        ),
+        featured: true,
+        collaborator: 'The_Mad_Punter',
+        incompatibleWithScratch: true
+    },
+    {
+        name: "Browser SDK",
+        tags: ["utils", "sdks"],
+        extensionId: 'adabrowser',
+        iconURL: browserIcon,
+        description: (
+            <FormattedMessage
+                defaultMessage="Change the web browser! Perfect for web apps."
+                description="Scratch utilities"
+                id="gui.extension.adabrowser.description"
             />
         ),
         featured: true,
