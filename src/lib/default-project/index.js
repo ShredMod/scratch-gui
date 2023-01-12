@@ -24,7 +24,7 @@ const defaultProject = translator => {
         id: '592bae6f8bb9c8d88401b54ac431f7b6',
         assetType: 'ImageVector',
         dataFormat: 'SVG',
-        data: encoder.encode(costume1)
+        data: encoder.encode(backdrop)
     }];
 };
 
