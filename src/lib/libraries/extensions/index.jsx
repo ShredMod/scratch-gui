@@ -541,6 +541,22 @@ export default [
         featured: true,
         collaborator: 'The_Mad_Punter',
         incompatibleWithScratch: true
+    },
+    {
+        name: "File SDK",
+        tags: ["utils", "sdks"],
+        extensionId: 'jgFiles',
+        iconURL: filesIcon,
+        description: (
+            <FormattedMessage
+                defaultMessage="Ask for and download files!"
+                description="Scratch utilities"
+                id="gui.extension.jgFiles.description"
+            />
+        ),
+        featured: true,
+        collaborator: 'The_Mad_Punter',
+        incompatibleWithScratch: true
     }
     
 ];
