@@ -539,7 +539,7 @@ export default [
             />
         ),
         featured: true,
-        collaborator: 'The_Mad_Punter',
+        collaborator: 'Adacraft',
         incompatibleWithScratch: true
     },
     {
@@ -555,7 +555,7 @@ export default [
             />
         ),
         featured: true,
-        collaborator: 'The_Mad_Punter',
+        collaborator: 'PenguinMod',
         incompatibleWithScratch: true
     }
     
