@@ -74,6 +74,8 @@ import browserIcon from './browser/ada.png'
 
 import filesIcon from './files/files.png'
 
+import jsonIcon from './json/json.png'
+
 export default [
     {
         name: (
@@ -545,15 +547,31 @@ export default [
         incompatibleWithScratch: true
     },
     {
-        name: "File SDK",
+        name: "Files SDK",
         tags: ["utils", "sdks"],
         extensionId: 'jgFiles',
         iconURL: filesIcon,
         description: (
             <FormattedMessage
-                defaultMessage="Ask for and download files!"
+                defaultMessage="Files in Scratch."
                 description="Scratch utilities"
                 id="gui.extension.jgFiles.description"
+            />
+        ),
+        featured: true,
+        collaborator: 'Adacraft',
+        incompatibleWithScratch: true
+    },
+    {
+        name: "JSON & Arrays",
+        tags: ["utils"],
+        extensionId: 'jgJson',
+        iconURL: jsonIcon,
+        description: (
+            <FormattedMessage
+                defaultMessage="Parse JSON in Scratch - and arrays too!"
+                description="Scratch utilities"
+                id="gui.extension.jgJson.description"
             />
         ),
         featured: true,
