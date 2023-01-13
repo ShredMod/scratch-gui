@@ -72,6 +72,8 @@ import consoleIcon from './console/console.svg'
 
 import browserIcon from './browser/ada.png'
 
+import filesIcon from './files/files.png'
+
 export default [
     {
         name: (
