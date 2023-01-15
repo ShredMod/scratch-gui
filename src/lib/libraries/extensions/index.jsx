@@ -565,7 +565,7 @@ export default [
     {
         name: "JSON & Arrays",
         tags: ["utils"],
-        extensionId: 'jgJson',
+        extensionId: 'jgJSON',
         iconURL: jsonIcon,
         description: (
             <FormattedMessage
