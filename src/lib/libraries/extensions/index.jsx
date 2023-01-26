@@ -76,6 +76,8 @@ import filesIcon from './files/files.png'
 
 import jsonIcon from './json/json.png'
 
+import structsIcon from './structs/ooplogo.png'
+
 export default [
     {
         name: (
@@ -577,6 +579,23 @@ export default [
         featured: true,
         collaborator: 'PenguinMod',
         incompatibleWithScratch: true
+    },
+    {
+        name: "Stucts (OOP)",
+        tags: ["utils", "other"],
+        extensionId: 'jwStructs',
+        iconURL: structsIcon,
+        description: (
+            <FormattedMessage
+                defaultMessage="Object-oriented programming"
+                description="Scratch utilities"
+                id="gui.extension.jwStructs.description"
+            />
+        ),
+        featured: true,
+        collaborator: 'PenguinMod',
+        incompatibleWithScratch: true
     }
     
 ];
+
