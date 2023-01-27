@@ -595,6 +595,22 @@ export default [
         featured: true,
         collaborator: 'PenguinMod',
         incompatibleWithScratch: true
+    },
+    {
+        name: "Variables",
+        tags: ["utils", "other"],
+        extensionId: 'tempVars',
+        iconURL: structsIcon,
+        description: (
+            <FormattedMessage
+                defaultMessage="Temporary variables"
+                description="Scratch utilities"
+                id="gui.extension.tempVars.description"
+            />
+        ),
+        featured: true,
+        collaborator: 'The_Mad_Punter',
+        incompatibleWithScratch: true
     }
     
 ];
