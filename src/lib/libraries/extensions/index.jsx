@@ -78,6 +78,8 @@ import jsonIcon from './json/json.png'
 
 import structsIcon from './structs/ooplogo.png'
 
+import prismIcon from './jgPrism/prism.png'
+
 export default [
     {
         name: (
@@ -610,6 +612,22 @@ export default [
         ),
         featured: true,
         collaborator: 'The_Mad_Punter',
+        incompatibleWithScratch: true
+    },
+    {
+        name: "Prism",
+        extensionId: 'jgPrism',
+        tags: ["utils","others"],
+        iconURL: prismIcon,
+        description: (
+            <FormattedMessage
+                defaultMessage="Prism Utilites from PenguinMod"
+                description="Scratch utilities"
+                id="gui.extension.jgPrism.description"
+            />
+        ),
+        featured: true,
+        collaborator: 'PenguinMod',
         incompatibleWithScratch: true
     }
     
