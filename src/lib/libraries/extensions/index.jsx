@@ -80,6 +80,8 @@ import structsIcon from './structs/ooplogo.png'
 
 import prismIcon from './jgPrism/prism.png'
 
+import rqIcon from './jgWebsiteRequests/websiteRequests.png'
+
 export default [
     {
         name: (
@@ -629,7 +631,22 @@ export default [
         featured: true,
         collaborator: 'PenguinMod',
         incompatibleWithScratch: true
-    }
-    
+    },
+    {
+        name: "Website Requests",
+        extensionId: 'jgWebsiteRequests',
+        tags: ["utils","others"],
+        iconURL: rqIcon,
+        description: (
+            <FormattedMessage
+                defaultMessage="Website Requests from PenguinMod"
+                description="Scratch utilities"
+                id="gui.extension.jgWebsiteRequests.description"
+            />
+        ),
+        featured: true,
+        collaborator: 'PenguinMod',
+        incompatibleWithScratch: true
+    } 
 ];
 
