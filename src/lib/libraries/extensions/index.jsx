@@ -646,7 +646,23 @@ export default [
         ),
         featured: true,
         collaborator: 'PenguinMod',
-        incompatibleWithScratch: true
+        incompatibleWithScratch: true,
+    }  ,
+    {
+        name: "Fresh Package Manager",
+        extensionId: 'freshpkg',
+        tags: ["utils","others"],
+        iconURL: customExtensionIcon,
+        description: (
+            <FormattedMessage
+                defaultMessage="A package manager for Scratch"
+                description="Scratch utilities"
+                id="gui.extension.freshpkg.description"
+            />
+        ),
+        featured: true,
+        collaborator: 'FreshPenguin112',
+        incompatibleWithScratch: false
     } 
 ];
 
