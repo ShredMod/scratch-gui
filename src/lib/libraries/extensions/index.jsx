@@ -649,19 +649,19 @@ export default [
         incompatibleWithScratch: true,
     }  ,
     {
-        name: "Fresh Package Manager",
+        name: "Add Sprites",
         extensionId: 'freshpkg',
         tags: ["utils","others"],
         iconURL: customExtensionIcon,
         description: (
             <FormattedMessage
-                defaultMessage="A package manager for Scratch"
+                defaultMessage="Add some important sprites to your game"
                 description="Scratch utilities"
                 id="gui.extension.freshpkg.description"
             />
         ),
         featured: true,
-        collaborator: 'FreshPenguin112',
+        collaborator: 'All sprite makers',
         incompatibleWithScratch: false
     } 
 ];
