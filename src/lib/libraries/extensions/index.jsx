@@ -82,6 +82,8 @@ import prismIcon from './jgPrism/prism.png'
 
 import rqIcon from './jgWebsiteRequests/websiteRequests.png'
 
+import textIcon from './animatedtext/text extension.png'
+
 export default [
     {
         name: (
@@ -647,7 +649,23 @@ export default [
         featured: true,
         collaborator: 'PenguinMod',
         incompatibleWithScratch: true,
-    }  ,
+    },
+    {
+        name: "Animated Text",
+        extensionId: 'text',
+        tags: ["utils","scratch"],
+        iconURL: textIcon,
+        description: (
+            <FormattedMessage
+                defaultMessage="Add animated text to your game"
+                description="Scratch utilities"
+                id="gui.extension.text.description"
+            />
+        ),
+        featured: true,
+        collaborator: 'All sprite makers',
+        incompatibleWithScratch: false
+    },
     {
         name: "Add Sprites",
         extensionId: 'freshpkg',
