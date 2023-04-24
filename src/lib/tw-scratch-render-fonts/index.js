@@ -19,7 +19,7 @@ const fontSource = {
     'Curly': Curly,
     'Pixel': Pixel,
     'Scratch': Scratch,
-    'Apple Kid': AppleKid
+    'Apple Kid': AppleKid,
     'Determination': Determination
 };
 
