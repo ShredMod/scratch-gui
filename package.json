@@ -79,7 +79,7 @@
     "scratch-audio": "git+https://github.com/TurboWarp/scratch-audio.git#develop",
     "scratch-blocks": "git+https://github.com/TurboWarp/scratch-blocks.git#develop-builds",
     "@turbowarp/scratch-l10n": "^3.999.20221130194927",
-    "scratch-paint": "git+https://github.com/TurboWarp/scratch-paint.git#develop",
+    "scratch-paint": "git+https://github.com/ShredMod/scratch-paint.git#develop",
     "scratch-render": "git+https://github.com/TurboWarp/scratch-render.git#develop",
     "scratch-render-fonts": "1.0.0-prerelease.20210401210003",
     "scratch-storage": "git+https://github.com/TurboWarp/scratch-storage.git#develop",
