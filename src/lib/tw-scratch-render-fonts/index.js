@@ -20,7 +20,8 @@ const fontSource = {
     'Pixel': Pixel,
     'Scratch': Scratch,
     'Apple Kid': AppleKid,
-    'Determination': Determination
+    'Determination': Determination,
+    'Pixel NES': PixelNES
 };
 
 const fontData = {};
