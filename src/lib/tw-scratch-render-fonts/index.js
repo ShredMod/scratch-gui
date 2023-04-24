@@ -9,6 +9,7 @@ const Pixel = require('./Grand9K-Pixel.ttf');
 const Scratch = require('./Scratch.ttf');
 const AppleKid = require('./apple_kid.ttf');
 const Determination = require('./DTM-Mono.otf');
+const PixelNES = require('./Pixel_NES.otf');
 const log = require('../log').default;
 
 const fontSource = {
