@@ -7,7 +7,8 @@ const Marker = require('./Knewave.ttf');
 const Curly = require('./Griffy-Regular.ttf');
 const Pixel = require('./Grand9K-Pixel.ttf');
 const Scratch = require('./Scratch.ttf');
-const AppleKid = require('./apple_kid.ttf')
+const AppleKid = require('./apple_kid.ttf');
+const Determination = require('./DTM-Mono.otf');
 const log = require('../log').default;
 
 const fontSource = {
@@ -19,6 +20,7 @@ const fontSource = {
     'Pixel': Pixel,
     'Scratch': Scratch,
     'Apple Kid': AppleKid
+    'Determination': Determination
 };
 
 const fontData = {};
