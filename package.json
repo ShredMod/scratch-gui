@@ -24,7 +24,7 @@
   "homepage": "https://github.com/LLK/scratch-gui#readme",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/LLK/scratch-gui.git"
+    "url": "git+ssh://git@github.com/ShredMod/scratch-gui.git"
   },
   "dependencies": {
     "arraybuffer-loader": "^1.0.6",
