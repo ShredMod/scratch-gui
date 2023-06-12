@@ -84,6 +84,8 @@ import rqIcon from './jgWebsiteRequests/websiteRequests.png'
 
 import textIcon from './animatedtext/text extension.png'
 
+import galleryIcon from './gallery/gallery.svg';
+
 export default [
     {
         name: (
@@ -681,6 +683,26 @@ export default [
         featured: true,
         collaborator: 'All sprite makers',
         incompatibleWithScratch: false
-    } 
+    },
+    {
+        name: (
+            <FormattedMessage
+                defaultMessage="TurboWarp Extension Gallery"
+                description="Name of extensions.turbowarp.org in extension library"
+                id="tw.extensionGallery.name"
+            />
+        ),
+        href: 'https://extensions.turbowarp.org/',
+        extensionId: '',
+        iconURL: galleryIcon,
+        description: (
+            <FormattedMessage
+                defaultMessage="Find advanced custom extensions on extensions.turbowarp.org."
+                description="Description of extensions.turbowarp.org in extension library"
+                id="tw.extensionGallery.description"
+            />
+        ),
+        featured: true
+    }
 ];
 
